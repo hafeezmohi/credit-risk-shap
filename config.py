@@ -1,1 +1,0 @@
-DB_PASSWORD = "@Hafeezdira9493"
