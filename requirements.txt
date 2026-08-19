@@ -1,0 +1,9 @@
+streamlit
+pandas
+scikit-learn
+xgboost==1.7.6
+shap
+joblib
+matplotlib
+sqlalchemy
+pymysql
