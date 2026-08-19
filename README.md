@@ -1,6 +1,7 @@
 # Credit Risk Prediction System with SHAP Explainability
 
 Predicts loan default risk using XGBoost, with SHAP explainability to interpret individual predictions — built for transparent, auditable credit decisions.
+🔗 **[Try the live demo](https://credit-risk-shap-htxzmz3iaduncqbjaahp8c.streamlit.app)**
 
 ## Problem
 Lenders need to predict which applicants are likely to default, while also being able to explain *why* a decision was made (required in regulated credit environments).
@@ -29,6 +30,21 @@ Lenders need to predict which applicants are likely to default, while also being
 
 ## Tech Stack
 Python, Pandas, NumPy, Scikit-learn, XGBoost, SHAP, MySQL, Power BI
+
+## Live Demo
+
+An interactive Streamlit app lets you enter applicant details and get:
+- A default risk score
+- An approve/reject decision based on an adjustable bank risk cutoff
+- A plain-English explanation of what drove the prediction, powered by SHAP
+
+Try it here: https://credit-risk-shap-htxzmz3iaduncqbjaahp8c.streamlit.app
+
+To run locally:
+\`\`\`
+pip install -r requirements.txt
+streamlit run app.py
+\`\`\`
 
 ## Screenshots
 <img width="1490" height="716" alt="shap_screenshot" src="https://github.com/user-attachments/assets/513e726b-4ec3-44fe-8858-d58ad20661a3" />
